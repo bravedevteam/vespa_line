@@ -75,13 +75,13 @@
                     </div>
                 </div>
             </section>
-            <section class="section2" data-0="top:-130px;opacity:0.3;transition: all ease-in-out 0.7s;" data-400="top:0;opacity:1;transition: all ease-in-out 0.7s;" style="position: relative;z-index:4">
+            <section class="section2" data-570="top:-130px;opacity:0.3;transition: all ease-in-out 0.7s;" data-630="top:0;opacity:1;transition: all ease-in-out 0.7s;" style="position: relative;z-index:4">
                 <div class="container">
                     <div class="title sec2_title">
                         <img src="img/sec2_title.png" alt="사전예약">
                     </div>
                     <div class="max_1200 clearfix">
-                        <div class="left sec2_left" data-600="left:-100%;opacity:0.3;transition: all ease-in-out 0.7s;" data-800="left:0;opacity:1;transition: all ease-in-out 0.7s;" style="position: relative;z-index:4">
+                        <div class="left sec2_left">
                             <img class="sec2_txt" src="img/sec2_Input.png" alt="정보 입력">
                             <form action="#" id="form" method="post" onsubmit="return false;">
                                 <div class="form">
@@ -129,7 +129,7 @@
                                 </div>
                             </form>
                         </div>
-                        <div class="right sec2_right" data-600="right:-100%;;opacity:0.3;transition: all ease-in-out 0.7s;" data-800="right:0;opacity:1;transition: all ease-in-out 0.7s;" style="position: relative;z-index:4">
+                        <div class="right sec2_right">
                             <img class="sec2_txt" src="img/sec2_c.png" alt="지급 보상" >
                             <img class="sec2_pet" src="img/pet.png" alt="펫 이미지">
                             <span>레이더 선택권(쁘띠 샤크메) /</span>
@@ -138,7 +138,7 @@
                     </div>
                 </div>
             </section>
-            <section class="section3" data-1000="top:-130px;opacity:0.3;transition: all ease-in-out 0.7s;" data-1800="top:0;opacity:1;transition: all ease-in-out 0.7s;" style="position: relative;z-index:3">
+            <section class="section3" data-1600="top:-130px;opacity:0.3;transition: all ease-in-out 0.7s;" data-1750="top:0;opacity:1;transition: all ease-in-out 0.7s;" style="position: relative;z-index:3">
                 <div class="container" style="position: relative;">
                     <div class="sec3_title">
                         <img src="img/sec3_title.png" alt="사전예약">
@@ -180,12 +180,12 @@
                     </div>
                 </div>
             </section>
-            <section class="section4" data-1800="top:-130px;opacity:0.3;transition: all ease-in-out 0.7s;" data-2900="top:0;opacity:1;transition: all ease-in-out 0.7s;" style="position: relative;z-index:2">
+            <section class="section4" data-2570="top:-130px;opacity:0.3;transition: all ease-in-out 0.7s;" data-2650="top:0;opacity:1;transition: all ease-in-out 0.7s;" style="position: relative;z-index:2">
                 <div class="container">
                     <div class="title sec4_title">
                         <img src="img/sec4_title.png" alt="사전예약">
                     </div>
-                    <div class="character pc" data-2400="left:-100%;opacity:0.3;transition: all ease-in-out 0.7s;" data-2900="left:0;opacity:1;transition: all ease-in-out 0.7s;" style="position: relative;z-index:2">
+                    <div class="character pc" data-2400="left:-100%;opacity:0.3;transition: all ease-in-out 0.7s;" data-2700="left:0;opacity:1;transition: all ease-in-out 0.7s;" style="position: relative;z-index:2">
                         <img src="img/sec4_img.png" alt="캐릭터">
                         <a class="sec4_plus sec4_plus1">
                             <span>+</span>
@@ -263,12 +263,12 @@
                     </div>
                 </div>
             </section>    
-            <section class="section5" data-2900="top:-130px;opacity:0.3;transition: all ease-in-out 0.7s;" data-3420="top:0;opacity:1;transition: all ease-in-out 0.7s;" style="position: relative;z-index:1">
+            <section class="section5" data-3170="top:-130px;opacity:0.3;transition: all ease-in-out 0.7s;" data-3240="top:0;opacity:1;transition: all ease-in-out 0.7s;" style="position: relative;z-index:1">
                 <div class="container">
                     <div class="title sec5_title">
                         <img src="img/sec5_title.png" alt="사전예약">
                     </div>
-                    <div class="sec5_character pc" data-3800="right:-100%;opacity:0.3;transition: all ease-in-out 0.7s;" data-4100="right:0;opacity:1;transition: all ease-in-out 0.7s;" style="position: relative;z-index:2">
+                    <div class="sec5_character pc" data-3700="right:-100%;opacity:0.3;transition: all ease-in-out 0.7s;" data-3800="right:0;opacity:1;transition: all ease-in-out 0.7s;" style="position: relative;z-index:2">
                         <img src="img/sec5_img.png" alt="캐릭터">
                         <!--
                         <div class="plus">
@@ -1422,15 +1422,22 @@
             }
         }
     });
+
+    $(window).scroll(function () {
+        var scrollValue = $(document).scrollTop();
+        console.log(scrollValue)
+    })
+
+
     var windowWidth = $( window ).width();
     
     if(windowWidth < 768) {
         setInterval(function() {
-            $('.go_sec2 img').animate({width:'130px'},1000).animate({width:'150px'},1000)
+            
         }, 0);
     } else {
         setInterval(function() {
-            $('.go_sec2 img').animate({width:'242px'},1000).animate({width:'262px'},1000)
+            $('.go_sec2 img').animate({width:'242px'},1000).animate({width:'247px'},1000)
         }, 0);
     }
     setInterval(function() {
@@ -1495,11 +1502,7 @@ for(var i=0; i<obj.length; i++){
 </script>
 <script>
 
-$(document).ready(function(heart_ani){
-        /*
-        setInterval(function() {
-            $('.go_sec2 img').animate({width:'280px'},800).animate({width:'242px'},800)
-        }, 800);*/
+$(document).ready(function(){
         var winH = $(window).innerHeight();
         var winW = $(window).width();
         var sec1H = $('.section1').offset().top;
@@ -1510,7 +1513,7 @@ $(document).ready(function(heart_ani){
         var target;
         var toggle=0;
         var m_toggle=0;
-        console.log(sec5H)
+
         if(winW<750){
             $('.sec1_img img').attr('src',"img/m_sec1_img.png");
             $('.sec2_title img').attr('src',"img/m_sec2_title.png");
@@ -1584,6 +1587,7 @@ $(document).ready(function(heart_ani){
   
         })
         $(window).on('scroll',function() {
+
             var scrollTop = $(window).scrollTop();
             if(scrollTop < sec2H/2 || winW<750){
                 $('.nav').fadeOut(500);
