@@ -20,7 +20,7 @@ float: left;
 .section1{
     background-color: #0d2771;
     position: relative;
-    min-height:1080px;
+    height:980px;
 }
 .section5{
     background-color: #0d2771;
@@ -64,7 +64,7 @@ float: left;
     width: 100%;
 }
 .sec1_txt>div>img{
-    width: 670px;
+    width: 630px;
     display: block;
     margin: 0 auto;
 }
