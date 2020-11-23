@@ -953,7 +953,7 @@ hr{
 }
 /* 반응형 */
 @media(max-width:760px){
-    .section1{height:100vh !important;min-height:auto;}
+    .section1{height:100vh !important;min-height:100%;}
     .mobile{
         display:block;
       }
