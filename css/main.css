@@ -20,7 +20,6 @@ float: left;
 .section1{
     background-color: #0d2771;
     position: relative;
-    
     min-height:1080px;
 }
 .section5{
@@ -954,7 +953,7 @@ hr{
 }
 /* 반응형 */
 @media(max-width:760px){
-    .section1{height:100vh !important;}
+    .section1{height:100vh !important;min-height:auto;}
     .mobile{
         display:block;
       }
