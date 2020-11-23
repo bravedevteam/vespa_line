@@ -20,7 +20,7 @@ float: left;
 .section1{
     background-color: #0d2771;
     position: relative;
-    height:1000px;
+    min-height:1080px;
 }
 .section5{
     background-color: #0d2771;
@@ -55,7 +55,7 @@ float: left;
 }
 .sec1_txt{
     position: relative;
-    top: -55px;
+    top: -45px;
     margin:0 auto;
     text-align: center;
     z-index: 1000;
@@ -1019,7 +1019,7 @@ hr{
         height:auto;
     }
     .section1{
-        padding-bottom: ;
+        padding-bottom: 5px;
     }
     .section2{
         padding-bottom: 20px;
