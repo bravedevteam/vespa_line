@@ -9,6 +9,7 @@ body{
     position: relative;
     margin:0 auto;
     text-align: center;
+    width:100%;
 }
 .left{
 float: left;
@@ -51,6 +52,7 @@ float: left;
 }
 .sec1_right{
     float: right;
+    
 }
 .sec1_txt{
     position: relative;
@@ -69,7 +71,7 @@ float: left;
 }
 .sec1_img{
     position: absolute;
-    bottom: -26px;
+    bottom: -19px;
     text-align: center;
     margin: 0 auto;
     width: 100%;
@@ -759,7 +761,7 @@ footer small{
 .pop_up1>div{
     width: 532px;
 }
-.pop_up2>div,.pop_up3>div,.pop_up4>div,.pop_up5>div,.pop_up6>div{
+.pop_up2>div,.pop_up3>div,.pop_up4>div,.pop_up5>div,.pop_up6>div,.pop_up7>div{
     width: 543px;
     height:290px;
     box-sizing: border-box;
@@ -789,7 +791,9 @@ footer small{
 .pop_up3 .pop_up_wrap .pop_up_txt,
 .pop_up4 .pop_up_wrap .pop_up_txt,
 .pop_up5 .pop_up_wrap .pop_up_txt,
-.pop_up6 .pop_up_wrap .pop_up_txt
+.pop_up6 .pop_up_wrap .pop_up_txt,
+.pop_up7 .pop_up_wrap .pop_up_txt
+
 {
     position: relative;
     top: 50%;
@@ -1342,7 +1346,7 @@ hr{
         font-size: 18px;
         line-height: 25px;
     }
-    .pop_up2>div,.pop_up3>div,.pop_up4>div,.pop_up5>div,.pop_up6>div{
+    .pop_up2>div,.pop_up3>div,.pop_up4>div,.pop_up5>div,.pop_up6>div,.pop_up7>div{
         width: 100%;
         box-sizing: border-box;
     }
@@ -1570,7 +1574,7 @@ hr{
     .agree_close {
         right: 13px;
     }
-    .pop_up2>div, .pop_up3>div, .pop_up4>div, .pop_up5>div, .pop_up6>div {
+    .pop_up2>div, .pop_up3>div, .pop_up4>div, .pop_up5>div, .pop_up6>div, .pop_up7>div {
         height: 230px;
     }
     .pop_up_title {
