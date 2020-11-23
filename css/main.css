@@ -1033,9 +1033,11 @@ hr{
     .section4{
         background-color:#fec808;
         padding-bottom: 20px;
+        overflow:hidden
     }
     .section5{
         padding-bottom: 20px;
+        overflow:hidden
     }
     .slide_wrap{
         height: 600px;
