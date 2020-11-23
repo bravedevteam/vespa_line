@@ -20,7 +20,7 @@ float: left;
 .section1{
     background-color: #0d2771;
     position: relative;
-    height:1080px;
+    height:1000px;
 }
 .section5{
     background-color: #0d2771;
@@ -55,7 +55,7 @@ float: left;
 }
 .sec1_txt{
     position: relative;
-    top: -45px;
+    top: -55px;
     margin:0 auto;
     text-align: center;
     z-index: 1000;
@@ -64,7 +64,7 @@ float: left;
     width: 100%;
 }
 .sec1_txt>div>img{
-    width: 770px;
+    width: 670px;
     display: block;
     margin: 0 auto;
 }
